@@ -45,15 +45,15 @@ Start the server:
 npm run server
 ```
 
-#API Endpoints
+##API Endpoints
 
-#User Routes
+##User Routes
 
 Register User: POST /api/users/register
 Login User: POST /api/users/login
 Upload Assignment: POST /api/users/upload
 
-#Admin Routes
+##Admin Routes
 
 Register Admin: POST /api/admins/register
 Login Admin: POST /api/admins/login
@@ -61,13 +61,13 @@ View Assignments: GET /api/admins/assignments
 Accept Assignment: POST /api/admins/assignments/:id/accept
 Reject Assignment: POST /api/admins/assignments/:id/reject
 
-#Usage
+##Usage
 
 Register users and admins using their respective endpoints.
 Users can upload assignments to their assigned admin.
 Admins can view all assignments assigned to them and accept or reject them.
 
-#Testing
+##Testing
 
 You can test the API using tools like Postman or Insomnia. Make sure to include the JWT in the Authorization header when making requests that require authentication.
 
